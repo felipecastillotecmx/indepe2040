@@ -9,7 +9,7 @@ const errorHandler = require('./_middleware/error-handler');
 
 //routes
 
-//let testRouter = require('./routes/test');
+let adminRoute = require('./routes/admin.route');
 let userRoute = require('./routes/user.route');
 
 let app = express();
@@ -28,7 +28,7 @@ app.use(cors());
 app.use(errorHandler);
 //paths
 
-//app.use('/', testRouter);
+app.use('/', adminRoute);
 app.use('/', userRoute);
 
 // catch 404 and forward to error handler

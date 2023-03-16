@@ -1,7 +1,7 @@
 {
   "dbName": "independencia",
   "dbConfig": {
-    "server": "indepe2040.database.windows.net",
+    "server": "indepe2k40.database.windows.net",
     "options": {
       "port": 1433,
       "trustServerCertificate": true
@@ -13,5 +13,6 @@
         "password": "Independencia2040"
       }
     }
-  }
+  },
+  "secret": "qwertyiitunf77455ebnf"
 }
